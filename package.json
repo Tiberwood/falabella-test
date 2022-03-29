@@ -1,0 +1,25 @@
+{
+  "name": "falabellaTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.15.2",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "jest": "^27.4.0",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
